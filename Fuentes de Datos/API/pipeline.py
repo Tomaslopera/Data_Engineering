@@ -8,7 +8,7 @@ class Pipeline:
     def __init__(self, country, output_folder):
         self.country = country
         self.output_folder = output_folder
-        self.api_key = os.getenv('API_KEY_SPORTS')
+        self.api_key = 'a1122b94efd6efb0f530829e96fe3bac'
         self.data = None
 
     def extract(self):
